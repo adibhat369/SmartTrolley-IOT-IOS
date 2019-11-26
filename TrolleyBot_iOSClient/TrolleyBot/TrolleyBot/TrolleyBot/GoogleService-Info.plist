@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>550535484202-5m0jn3si42kki5vt088m892omtd26juf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.550535484202-5m0jn3si42kki5vt088m892omtd26juf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMdftOnhuXIxgMHo0sYDpZ9ybETH9Nz0E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>550535484202</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Monash.TrolleyBot</string>
+	<key>PROJECT_ID</key>
+	<string>trolleybotpifirebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trolleybotpifirebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:550535484202:ios:8c81c748b6f8ea12</string>
+	<key>DATABASE_URL</key>
+	<string>https://trolleybotpifirebase.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DA46E3636E16E988A8AF56 /* Pods_TrolleyBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC4A4B3C6A61B8181358DD0 /* Pods_TrolleyBotTests.framework */; };
+		A814DB512185415F00215B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814DB502185415F00215B43 /* AppDelegate.swift */; };
+		A814DB532185415F00215B43 /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814DB522185415F00215B43 /* GoogleSignInViewController.swift */; };
+		A814DB592185415F00215B43 /* TrolleyBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A814DB572185415F00215B43 /* TrolleyBot.xcdatamodeld */; };
+		A814DB5E2185416000215B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A814DB5C2185416000215B43 /* LaunchScreen.storyboard */; };
+		A814DB692185416000215B43 /* TrolleyBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814DB682185416000215B43 /* TrolleyBotTests.swift */; };
+		A814DB742185416000215B43 /* TrolleyBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814DB732185416000215B43 /* TrolleyBotUITests.swift */; };
+		A8866973218830E600FCDB4E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8866972218830E600FCDB4E /* MapViewController.swift */; };
+		A88669752188328E00FCDB4E /* TrolleyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88669742188328E00FCDB4E /* TrolleyAnnotation.swift */; };
+		A886697D218D480A00FCDB4E /* SystemSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886697C218D480A00FCDB4E /* SystemSettingViewController.swift */; };
+		A8866981218D9D9800FCDB4E /* credentials (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = A8866980218D9D9800FCDB4E /* credentials (1).plist */; };
+		A8866985218DEAD600FCDB4E /* InitialSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8866984218DEAD600FCDB4E /* InitialSettingViewController.swift */; };
+		A8A5D85E218F089A0007FB03 /* Trolley.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5D85D218F089A0007FB03 /* Trolley.swift */; };
+		A8A5D860218F36500007FB03 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5D85F218F36500007FB03 /* TestViewController.swift */; };
+		A8B0DDFA218DF3310037C5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B0DDF8218DF3310037C5CF /* Main.storyboard */; };
+		A8B0DDFC218DF3670037C5CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B0DDFB218DF3670037C5CF /* GoogleService-Info.plist */; };
+		A8B0DDFE218EA75A0037C5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B0DDFD218EA75A0037C5CF /* Assets.xcassets */; };
+		A8B0DE00218ECFFC0037C5CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B0DDFF218ECFFC0037C5CF /* SettingsViewController.swift */; };
+		EA14C0B64696D7F2BD517CEE /* Pods_TrolleyBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FA384F4F33BFC75DB3273 /* Pods_TrolleyBotUITests.framework */; };
+		ED75BA3E28EAB9034D2E78A2 /* Pods_TrolleyBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594DDC65865EC90871A19B76 /* Pods_TrolleyBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A814DB652185416000215B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A814DB452185415F00215B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A814DB4C2185415F00215B43;
+			remoteInfo = TrolleyBot;
+		};
+		A814DB702185416000215B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A814DB452185415F00215B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A814DB4C2185415F00215B43;
+			remoteInfo = TrolleyBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D271887CA1182E3E9C938E /* Pods-TrolleyBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBotUITests/Pods-TrolleyBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0910D0FEE065FC5792B67DDA /* Pods-TrolleyBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBotUITests/Pods-TrolleyBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4BC9A4627E972945811396 /* Pods-TrolleyBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBotTests/Pods-TrolleyBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		594DDC65865EC90871A19B76 /* Pods_TrolleyBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrolleyBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74894B535295F226E700D512 /* Pods-TrolleyBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBotTests/Pods-TrolleyBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		90A7D7FF1395FCD4D6CBD6A8 /* Pods-TrolleyBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot.release.xcconfig"; sourceTree = "<group>"; };
+		A814DB4D2185415F00215B43 /* TrolleyBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrolleyBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A814DB502185415F00215B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A814DB522185415F00215B43 /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
+		A814DB582185415F00215B43 /* TrolleyBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrolleyBot.xcdatamodel; sourceTree = "<group>"; };
+		A814DB5D2185416000215B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A814DB5F2185416000215B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A814DB642185416000215B43 /* TrolleyBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrolleyBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A814DB682185416000215B43 /* TrolleyBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyBotTests.swift; sourceTree = "<group>"; };
+		A814DB6A2185416000215B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A814DB6F2185416000215B43 /* TrolleyBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrolleyBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A814DB732185416000215B43 /* TrolleyBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyBotUITests.swift; sourceTree = "<group>"; };
+		A814DB752185416000215B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8866972218830E600FCDB4E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A88669742188328E00FCDB4E /* TrolleyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyAnnotation.swift; sourceTree = "<group>"; };
+		A886697C218D480A00FCDB4E /* SystemSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettingViewController.swift; sourceTree = "<group>"; };
+		A8866980218D9D9800FCDB4E /* credentials (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "credentials (1).plist"; path = "../../../../Downloads/credentials (1).plist"; sourceTree = "<group>"; };
+		A8866984218DEAD600FCDB4E /* InitialSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSettingViewController.swift; sourceTree = "<group>"; };
+		A8A5D85D218F089A0007FB03 /* Trolley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trolley.swift; sourceTree = "<group>"; };
+		A8A5D85F218F36500007FB03 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A8B0DDF9218DF3310037C5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8B0DDFB218DF3670037C5CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8B0DDFD218EA75A0037C5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8B0DDFF218ECFFC0037C5CF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DE6FA384F4F33BFC75DB3273 /* Pods_TrolleyBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrolleyBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F210AAAAB67E084512097F7F /* Pods-TrolleyBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC4A4B3C6A61B8181358DD0 /* Pods_TrolleyBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrolleyBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A814DB4A2185415F00215B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75BA3E28EAB9034D2E78A2 /* Pods_TrolleyBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB612185416000215B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA46E3636E16E988A8AF56 /* Pods_TrolleyBotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB6C2185416000215B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14C0B64696D7F2BD517CEE /* Pods_TrolleyBotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA315C673181286880D59D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F210AAAAB67E084512097F7F /* Pods-TrolleyBot.debug.xcconfig */,
+				90A7D7FF1395FCD4D6CBD6A8 /* Pods-TrolleyBot.release.xcconfig */,
+				2D4BC9A4627E972945811396 /* Pods-TrolleyBotTests.debug.xcconfig */,
+				74894B535295F226E700D512 /* Pods-TrolleyBotTests.release.xcconfig */,
+				0910D0FEE065FC5792B67DDA /* Pods-TrolleyBotUITests.debug.xcconfig */,
+				07D271887CA1182E3E9C938E /* Pods-TrolleyBotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A814DB442185415F00215B43 = {
+			isa = PBXGroup;
+			children = (
+				A814DB4F2185415F00215B43 /* TrolleyBot */,
+				A814DB672185416000215B43 /* TrolleyBotTests */,
+				A814DB722185416000215B43 /* TrolleyBotUITests */,
+				A814DB4E2185415F00215B43 /* Products */,
+				9AA315C673181286880D59D8 /* Pods */,
+				D1CB521E11DE7EE0BACEEA4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A814DB4E2185415F00215B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A814DB4D2185415F00215B43 /* TrolleyBot.app */,
+				A814DB642185416000215B43 /* TrolleyBotTests.xctest */,
+				A814DB6F2185416000215B43 /* TrolleyBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A814DB4F2185415F00215B43 /* TrolleyBot */ = {
+			isa = PBXGroup;
+			children = (
+				A814DB502185415F00215B43 /* AppDelegate.swift */,
+				A814DB522185415F00215B43 /* GoogleSignInViewController.swift */,
+				A8B0DDFB218DF3670037C5CF /* GoogleService-Info.plist */,
+				A8B0DDF8218DF3310037C5CF /* Main.storyboard */,
+				A8A5D85F218F36500007FB03 /* TestViewController.swift */,
+				A8B0DDFD218EA75A0037C5CF /* Assets.xcassets */,
+				A814DB5C2185416000215B43 /* LaunchScreen.storyboard */,
+				A814DB5F2185416000215B43 /* Info.plist */,
+				A814DB572185415F00215B43 /* TrolleyBot.xcdatamodeld */,
+				A8866972218830E600FCDB4E /* MapViewController.swift */,
+				A8A5D85D218F089A0007FB03 /* Trolley.swift */,
+				A8866980218D9D9800FCDB4E /* credentials (1).plist */,
+				A88669742188328E00FCDB4E /* TrolleyAnnotation.swift */,
+				A886697C218D480A00FCDB4E /* SystemSettingViewController.swift */,
+				A8866984218DEAD600FCDB4E /* InitialSettingViewController.swift */,
+				A8B0DDFF218ECFFC0037C5CF /* SettingsViewController.swift */,
+			);
+			path = TrolleyBot;
+			sourceTree = "<group>";
+		};
+		A814DB672185416000215B43 /* TrolleyBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A814DB682185416000215B43 /* TrolleyBotTests.swift */,
+				A814DB6A2185416000215B43 /* Info.plist */,
+			);
+			path = TrolleyBotTests;
+			sourceTree = "<group>";
+		};
+		A814DB722185416000215B43 /* TrolleyBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A814DB732185416000215B43 /* TrolleyBotUITests.swift */,
+				A814DB752185416000215B43 /* Info.plist */,
+			);
+			path = TrolleyBotUITests;
+			sourceTree = "<group>";
+		};
+		D1CB521E11DE7EE0BACEEA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594DDC65865EC90871A19B76 /* Pods_TrolleyBot.framework */,
+				FDC4A4B3C6A61B8181358DD0 /* Pods_TrolleyBotTests.framework */,
+				DE6FA384F4F33BFC75DB3273 /* Pods_TrolleyBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A814DB4C2185415F00215B43 /* TrolleyBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB782185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBot" */;
+			buildPhases = (
+				7BC2117C4DBDB4455694257A /* [CP] Check Pods Manifest.lock */,
+				A814DB492185415F00215B43 /* Sources */,
+				A814DB4A2185415F00215B43 /* Frameworks */,
+				A814DB4B2185415F00215B43 /* Resources */,
+				AEE588BDEC74696F1D21FCBD /* [CP] Embed Pods Frameworks */,
+				0938A247E313A16904E552A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrolleyBot;
+			productName = TrolleyBot;
+			productReference = A814DB4D2185415F00215B43 /* TrolleyBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A814DB632185416000215B43 /* TrolleyBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB7B2185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBotTests" */;
+			buildPhases = (
+				05AC183879858979D0B00D29 /* [CP] Check Pods Manifest.lock */,
+				A814DB602185416000215B43 /* Sources */,
+				A814DB612185416000215B43 /* Frameworks */,
+				A814DB622185416000215B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A814DB662185416000215B43 /* PBXTargetDependency */,
+			);
+			name = TrolleyBotTests;
+			productName = TrolleyBotTests;
+			productReference = A814DB642185416000215B43 /* TrolleyBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A814DB6E2185416000215B43 /* TrolleyBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A814DB7E2185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBotUITests" */;
+			buildPhases = (
+				EE54DD6F4779199017688F24 /* [CP] Check Pods Manifest.lock */,
+				A814DB6B2185416000215B43 /* Sources */,
+				A814DB6C2185416000215B43 /* Frameworks */,
+				A814DB6D2185416000215B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A814DB712185416000215B43 /* PBXTargetDependency */,
+			);
+			name = TrolleyBotUITests;
+			productName = TrolleyBotUITests;
+			productReference = A814DB6F2185416000215B43 /* TrolleyBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A814DB452185415F00215B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Monash;
+				TargetAttributes = {
+					A814DB4C2185415F00215B43 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A814DB632185416000215B43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A814DB4C2185415F00215B43;
+					};
+					A814DB6E2185416000215B43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A814DB4C2185415F00215B43;
+					};
+				};
+			};
+			buildConfigurationList = A814DB482185415F00215B43 /* Build configuration list for PBXProject "TrolleyBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A814DB442185415F00215B43;
+			productRefGroup = A814DB4E2185415F00215B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A814DB4C2185415F00215B43 /* TrolleyBot */,
+				A814DB632185416000215B43 /* TrolleyBotTests */,
+				A814DB6E2185416000215B43 /* TrolleyBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A814DB4B2185415F00215B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A814DB5E2185416000215B43 /* LaunchScreen.storyboard in Resources */,
+				A8B0DDFA218DF3310037C5CF /* Main.storyboard in Resources */,
+				A8866981218D9D9800FCDB4E /* credentials (1).plist in Resources */,
+				A8B0DDFC218DF3670037C5CF /* GoogleService-Info.plist in Resources */,
+				A8B0DDFE218EA75A0037C5CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB622185416000215B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB6D2185416000215B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AC183879858979D0B00D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrolleyBotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0938A247E313A16904E552A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC2117C4DBDB4455694257A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrolleyBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE588BDEC74696F1D21FCBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrolleyBot/Pods-TrolleyBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE54DD6F4779199017688F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrolleyBotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A814DB492185415F00215B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A814DB532185415F00215B43 /* GoogleSignInViewController.swift in Sources */,
+				A814DB512185415F00215B43 /* AppDelegate.swift in Sources */,
+				A8A5D860218F36500007FB03 /* TestViewController.swift in Sources */,
+				A886697D218D480A00FCDB4E /* SystemSettingViewController.swift in Sources */,
+				A814DB592185415F00215B43 /* TrolleyBot.xcdatamodeld in Sources */,
+				A8866973218830E600FCDB4E /* MapViewController.swift in Sources */,
+				A8866985218DEAD600FCDB4E /* InitialSettingViewController.swift in Sources */,
+				A8A5D85E218F089A0007FB03 /* Trolley.swift in Sources */,
+				A88669752188328E00FCDB4E /* TrolleyAnnotation.swift in Sources */,
+				A8B0DE00218ECFFC0037C5CF /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB602185416000215B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A814DB692185416000215B43 /* TrolleyBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DB6B2185416000215B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A814DB742185416000215B43 /* TrolleyBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A814DB662185416000215B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A814DB4C2185415F00215B43 /* TrolleyBot */;
+			targetProxy = A814DB652185416000215B43 /* PBXContainerItemProxy */;
+		};
+		A814DB712185416000215B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A814DB4C2185415F00215B43 /* TrolleyBot */;
+			targetProxy = A814DB702185416000215B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A814DB5C2185416000215B43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A814DB5D2185416000215B43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A8B0DDF8218DF3310037C5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B0DDF9218DF3310037C5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A814DB762185416000215B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A814DB772185416000215B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A814DB792185416000215B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F210AAAAB67E084512097F7F /* Pods-TrolleyBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDADBT53K9;
+				INFOPLIST_FILE = TrolleyBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A814DB7A2185416000215B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A7D7FF1395FCD4D6CBD6A8 /* Pods-TrolleyBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDADBT53K9;
+				INFOPLIST_FILE = TrolleyBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A814DB7C2185416000215B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4BC9A4627E972945811396 /* Pods-TrolleyBotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrolleyBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrolleyBot.app/TrolleyBot";
+			};
+			name = Debug;
+		};
+		A814DB7D2185416000215B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74894B535295F226E700D512 /* Pods-TrolleyBotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrolleyBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrolleyBot.app/TrolleyBot";
+			};
+			name = Release;
+		};
+		A814DB7F2185416000215B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0910D0FEE065FC5792B67DDA /* Pods-TrolleyBotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrolleyBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrolleyBot;
+			};
+			name = Debug;
+		};
+		A814DB802185416000215B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D271887CA1182E3E9C938E /* Pods-TrolleyBotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrolleyBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.TrolleyBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrolleyBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A814DB482185415F00215B43 /* Build configuration list for PBXProject "TrolleyBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB762185416000215B43 /* Debug */,
+				A814DB772185416000215B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB782185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB792185416000215B43 /* Debug */,
+				A814DB7A2185416000215B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB7B2185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB7C2185416000215B43 /* Debug */,
+				A814DB7D2185416000215B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A814DB7E2185416000215B43 /* Build configuration list for PBXNativeTarget "TrolleyBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814DB7F2185416000215B43 /* Debug */,
+				A814DB802185416000215B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A814DB572185415F00215B43 /* TrolleyBot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A814DB582185415F00215B43 /* TrolleyBot.xcdatamodel */,
+			);
+			currentVersion = A814DB582185415F00215B43 /* TrolleyBot.xcdatamodel */;
+			path = TrolleyBot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A814DB452185415F00215B43 /* Project object */;
+}
